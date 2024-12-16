@@ -1,0 +1,55 @@
+  Body {
+    Display: grid;
+    Justify-content: center;
+    Align-items: center;
+    Min-height: 100vh;
+    Background-color: #b3f0f2;
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+  }
+  
+  .card {
+    Background-color: #c8cc82;
+    Border-radius: 20px;
+    Box-shadow: 10px 10px 20px #000000;
+    Padding: 20px;
+    Width: 350px;
+  }
+  
+  .employee {
+    Display: grid;
+    Grid-template-columns: 75px 1fr;
+    Align-items: center;
+    Border-bottom: 1px solid #ccc;
+    Padding-bottom: 15px;
+  }
+  
+    
+  .pic {
+    Background-color: gray;
+    Width: 65px;
+    Height: 65px;
+    Border-radius: 50%;
+  }
+  
+  .info {
+    Display: grid;
+    Flex-direction: column;
+    Justify-content:space-between;
+  }
+  
+  .name {
+    display: grid;
+    Font-size: 18px;
+  }
+  
+  .job {
+    Color: #555;
+    Font-size: 14px;
+  }
+  
+  
+  
+  
+  
